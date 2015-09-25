@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud_blur_black" translatesAutoresizingMaskIntoConstraints="NO" id="uRi-km-FnQ">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aperture" translatesAutoresizingMaskIntoConstraints="NO" id="gFK-My-Wm3">
+                    <rect key="frame" x="215" y="215" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="iLl-bT-cFd"/>
+                        <constraint firstAttribute="height" constant="50" id="ufl-FD-LGH"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uRi-km-FnQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AbS-ET-mKt"/>
+                <constraint firstAttribute="trailing" secondItem="uRi-km-FnQ" secondAttribute="trailing" id="JUh-SA-7wM"/>
+                <constraint firstItem="uRi-km-FnQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KPR-JD-NBY"/>
+                <constraint firstItem="uRi-km-FnQ" firstAttribute="centerY" secondItem="gFK-My-Wm3" secondAttribute="centerY" constant="200" id="OEx-Yt-4aN"/>
+                <constraint firstItem="uRi-km-FnQ" firstAttribute="centerY" secondItem="gFK-My-Wm3" secondAttribute="centerY" id="UCN-gw-x14"/>
+                <constraint firstItem="uRi-km-FnQ" firstAttribute="centerX" secondItem="gFK-My-Wm3" secondAttribute="centerX" id="cfE-Ea-GxL"/>
+                <constraint firstAttribute="bottom" secondItem="uRi-km-FnQ" secondAttribute="bottom" id="xhf-Us-PUa"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="OEx-Yt-4aN"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="aperture" width="1000" height="1000"/>
+        <image name="cloud_blur_black" width="1394" height="1919"/>
+    </resources>
+</document>

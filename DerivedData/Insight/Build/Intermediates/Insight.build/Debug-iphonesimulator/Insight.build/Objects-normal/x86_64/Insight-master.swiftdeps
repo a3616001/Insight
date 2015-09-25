@@ -1,0 +1,13 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "a939cdd1ee8b106bab63aacb4be0c594"
+inputs: 
+- "/Users/Definiter/Desktop/Insight/Insight/ISCollectionViewCell.swift"
+- "/Users/Definiter/Desktop/Insight/Insight/ISDarkroomViewController.swift"
+- "/Users/Definiter/Desktop/Insight/Insight/ISPopSelectView.swift"
+- "/Users/Definiter/Desktop/Insight/Insight/ISCollectionViewController.swift"
+- "/Users/Definiter/Desktop/Insight/Insight/ToneCurveEditorCurveLayer.swift"
+- "/Users/Definiter/Desktop/Insight/Insight/ISColorHistogramView.swift"
+- "/Users/Definiter/Desktop/Insight/Insight/AppDelegate.swift"
+- "/Users/Definiter/Desktop/Insight/Insight/ToneCurveEditor.swift"
+- "/Users/Definiter/Desktop/Insight/Insight/UIBezierPathExtension.swift"
+- "/Users/Definiter/Desktop/Insight/Insight/ISProcessor.swift"
